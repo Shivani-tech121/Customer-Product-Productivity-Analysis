@@ -4,7 +4,7 @@ import pandas as pd
 st.set_page_config(page_title="Customer Product Productivity Analysis", layout="wide")
 
 # Load dataset
-df = pd.read_csv("dataset/APL_Logistics_small.csv")
+df = pd.read_csv("APL_Logistics_small.csv")
 
 st.sidebar.title("Filters")
 
